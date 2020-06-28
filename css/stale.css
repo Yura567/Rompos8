@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    float: left;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-image: url(../img/portfolio-web-razrabotchikov_0_o.jpg);
+     background-size: cover;
+    background-position: center;
+}
+
+.img1{
+    border-radius: 86px;
+    width: 0%;
+    margin-top: 16px;
+}
+.logo_text{
+  width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'El Messiri', sans-serif;
+}
+p{
+    color: #424843;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.header_text{
+    width: 100%;
+    float: left;
+    display: flex;
+    font-family: 'El Messiri', sans-serif;
+    justify-content: center;   
+    margin-top: 265px;
+}
+.header_text_big {
+    display: flex;
+    border: 5px solid #1e5919;
+    font-family: 'El Messiri', sans-serif;
+    width: 430px;
+    justify-content: center;
+}
+p1{
+        font-size: 56px;
+    font-family: 'El Messiri', sans-serif;
+    color: #0a2708;
+}
+.header_text_first{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 40px;
+  font-size: 25px;
+}
+.header_text_second{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 23px;
+  font-size: 25px;
+    
+}
+.header_text_third{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  font-size: 25px;
+    margin-bottom: 235px;
+}
+p2{
+    font-size: 30px;
+    color: #2d3a2b;
+    font-family: 'El Messiri', sans-serif;
+}
+p9{
+    font-size: 29px;
+     color: #2d3a2b;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.main{
+    width: 100%;
+    float: left;
+}
+
+.head_master1{
+    width: 100%;
+    float: left;
+    display: flex;
+   
+}
+.main_master1{
+    float: left;
+    width: 55%;
+}
+.main_master1_photo{
+    display: flex;
+    justify-content: center;
+}.main_master2_photo{
+    display: flex;
+    justify-content: center;
+}
+.main_master2{
+    float: left;
+    width: 45%;
+}
+.img_photo1{width: 70%;
+border: 1px solid black;
+}
+.img_photo1:hover{
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px;
+    color: gray;
+}.img_photo2:hover{
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px;
+    color: gray;
+}.img_photo3:hover{
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px;
+    color: gray;
+}
+.img_photo2{width: 70%;
+border: 1px solid black;}
+
+.main_head_text1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 60px;
+}
+.main_head_text2{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    margin-bottom: 50px;
+}
+
+
+p3{
+    font-size: 31px;
+    font-family: 'El Messiri', sans-serif;}
+    
+
+.main_master3_text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main_master3{
+    float: left;
+    width: 100%;
+}
+.main_master3_photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.img_photo3{
+    width: 51%;
+    border: 1px solid black;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 300px;
+    
+}
+.footer_chapter1{
+    width: 45%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_end{
+    width: 100%;
+    float: left;
+}
+.footer_chapter2{
+    float: right;
+
+    
+    width: 45%;
+}
+.sot1, .sot2, .sot3{
+    cursor: pointer;
+}
+.sot1{
+    width:  34%
+}
+.sot2{
+    width: 32%;
+}
+.sot3{
+    width: 32%;
+}
+.footer_text1{
+     font-family: 'El Messiri', sans-serif;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+pf{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+}
+.footer_text2{
+    float: right;
+    font-family: 'El Messiri', sans-serif;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+a{font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'El Messiri', sans-serif;
+    color: #1e5919;
+}
+.inform1{
+    display: flex;
+    justify-content: center;
+}.inform2{
+    display: flex;
+    justify-content: center;
+        margin-top: 10px;
+    margin-bottom: 10px;
+}.inform3{
+    display: flex;
+    justify-content: center;
+}
+py{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    color: darkslategray;
+}
+pt{
+    font-family: 'El Messiri', sans-serif;
+        font-size: 20px;
+    color: #1e5919;
+}
+p{
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+.main_master1_text{
+    display: flex;
+    justify-content: center;
+}.main_master2_text{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:1000px) and (min-width:700px){
+    p3{
+    font-size: 25px;
+  
+}
+    .main_master1_photo{
+        display: flex;
+        justify-content: center;
+    }  
+    .main_master2_photo{
+        display: flex;
+        justify-content: center;
+    }  
+   
+
+
+.footer_chapter2{
+    float: left;
+        margin-top: 25px;
+     margin-left: 28%;
+}
+.footer_chapter1{
+    border: 0px;
+     margin-left: 28%;
+}
+    
+    .head_master1{
+        display: flex;
+        flex-direction: column
+    }
+    .img_photo1{
+        width: 70%;
+    }
+   
+    
+    .main_master2{
+    width: 100%;
+    }
+     .main_master1{
+    width: 100%;
+    }
+    
+
+
+.main_master1_text {
+   text-align: center;
+    display: flex;
+    justify-content: center;
+}
+    
+
+.img_photo2 {
+    width: 63%;
+   
+}
+    .main_master2_text{     
+    display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:700px) and (min-width:0px){
+    
+    .main_master2{
+    float: left;
+    width: 100%;
+}
+  .main_master1{
+    float: left;
+    width: 100%;
+}
+     
+
+    p3{
+        
+        font-size: 20px;
+    }
+    .footer_chapter2{
+    float: left;
+        margin-top: 25px;
+     margin-left: 28%;
+}
+.footer_chapter1{
+    border: 0px;
+     margin-left: 28%;
+}
+    
+    .head_master1{
+        display: flex;
+        flex-direction: column
+    }
+    .img_photo1{
+       
+        width: 70%;
+    }
+    
+    
+    .footer_chapter2 {
+    float: left;
+    margin-top: 25px;
+    width: 60%;
+    margin-left: 21%;
+}
+
+
+.main_master1_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+    
+
+.img_photo2 {
+    width: 63%;
+    
+}
+    .main_master2_text{     
+    display: flex;
+        justify-content: center;
+    }
+    p{
+        margin-bottom: 30px;
+        width: 74%;
+        font-size: 16px;
+    }
+     .sot2, .sot3 {
+    cursor: pointer;
+    width: 50%;
+}
+    .img_photo3{
+        width: 60%;
+    }
+    .header_text{
+        margin-top: 100px;
+    }
+    .sot1{
+        width: 56%;
+    }
+    pf {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+   
+    .main_master1_text, .main_master2_text, .main_master3_text{
+      text-align: center;  
+    } 
+    p2{
+        font-size: 24px;
+    }
+    p9{
+        font-size: 20px;
+    }
+    .logo_photo{
+        width: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    .img1{  
+        border-radius: 86px;
+    width: 15%;
+        margin-top: 16px;}
+    .header_text_third{
+        margin-bottom: 70px;
+    }
+    .main_master3_photo{
+        margin-top: 30px
+    }
+}
